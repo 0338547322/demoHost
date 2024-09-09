@@ -1,0 +1,27 @@
+﻿@model ImageModerationClient.Models.UploadImageModel
+
+@{
+    ViewData["Title"] = "Upload Image for Moderation";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="Image" asp-action="UploadImage" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="ImageFile" class="control-label"></label>
+        <input asp-for="ImageFile" class="form-control" type="file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Upload" class="btn btn-primary" />
+    </div>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">
+        <strong>@ViewBag.Message</strong>
+    </div>
+
+    <pre>@Html.Raw(ViewBag.Result)</pre>
+}

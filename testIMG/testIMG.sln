@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testIMG", "testIMG\testIMG.csproj", "{62027A6B-4A28-4352-9A24-D89C55EFDF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageModerationClient", "ImageModerationClient\ImageModerationClient.csproj", "{FAA63C41-D065-4CDC-BD13-5B9CCABF768F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62027A6B-4A28-4352-9A24-D89C55EFDF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62027A6B-4A28-4352-9A24-D89C55EFDF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62027A6B-4A28-4352-9A24-D89C55EFDF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62027A6B-4A28-4352-9A24-D89C55EFDF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA63C41-D065-4CDC-BD13-5B9CCABF768F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA63C41-D065-4CDC-BD13-5B9CCABF768F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA63C41-D065-4CDC-BD13-5B9CCABF768F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA63C41-D065-4CDC-BD13-5B9CCABF768F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA33C1C-0338-4972-8E5D-C4B650D012C3}
+	EndGlobalSection
+EndGlobal
